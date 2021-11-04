@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url(./cute-panda.jpg);
+    background-size: cover;
+    
+    
+}
+#header {
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: white;
+    font: 4em sans-serif;
+    
+}
+.quiz {
+    width: 49%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.fact {
+    width: 49%;
+    display: inline-block;
+}
+h2{
+    color: whitesmoke;
+    display: inline;
+    font-size: 3em;
+    margin-left: 290px;
+    
+    
+}
+h3 {
+    color: whitesmoke;
+    display: inline;
+    margin-left: 640px;
+    font-size: 3em;
+
+}
+
+#dino-container{
+    margin-top: 50px;
+}
+#dino-container-facts{
+
+}
+#container1{
+    height: 500px; 
+    margin-top: 200px;
+
+}
+#container2 {
+    height: 500px;
+}
+
+#button-grid1 {
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 200px;
+    height: 120px;
+    gap: 150px; 
+    margin-left: 170px;
+    
+}
+#button-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 200px;
+    height: 120px;
+    gap: 150px;
+    margin-left: 570px;
+}
+.land {
+    width: fit-content;
+    background-color: transparent;
+    color: rgb(251, 251, 251)
+    ;
+    font-size: 1.5em;
+    background-color: green;
+}
+.sea{
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+    background-color: blue;
+}
+
+
+#btn-dino {
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    background-color: crimson;
+    margin-left:280px;
+}
+#btn-dino-fact {
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    background-color: crimson;
+    margin-left: 680px;
+}

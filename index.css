@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url(./img/ready-for-quiz.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    display:flex;
+    width: auto;
+    height: 100vh;
+    justify-content: center;
+    
+    text-align: center;
+    vertical-align: top;
+    
+    
+}
+h1{
+    color: rgb(251, 140, 255);
+
+}
+#container {
+    
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    vertical-align: top;
+    
+    
+    
+    
+}
+#button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 100px;
+    
+    
+}
+#btn-what-to-eat {
+    
+    background-color: transparent;
+    outline: none;
+    color: rgb(251, 140, 255);
+    font-size: 45px;
+    
+}
+#btn-math {
+    
+    background-color: transparent;
+    outline: none;
+    color: rgb(251, 140, 255);
+    font-size: 45px;
+    
+}
+#btn-coding-quiz {
+    
+    background-color: transparent;
+    outline: none;
+    color: rgb(251, 140, 255);
+    font-size: 45px;
+    
+}
+#btn-animal-fact {
+    
+    background-color: transparent;
+    outline: none;
+    color: rgb(251, 140, 255);
+    font-size: 45px;
+    
+}
