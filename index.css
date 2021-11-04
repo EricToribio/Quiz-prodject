@@ -41,7 +41,7 @@ h1{
     
 }
 #btn-what-to-eat {
-    
+    border:4px solid rgb(251, 140, 255);
     background-color: transparent;
     outline: none;
     color: rgb(251, 140, 255);
@@ -49,7 +49,7 @@ h1{
     
 }
 #btn-math {
-    
+    border:4px solid rgb(251, 140, 255);
     background-color: transparent;
     outline: none;
     color: rgb(251, 140, 255);
@@ -57,7 +57,9 @@ h1{
     
 }
 #btn-coding-quiz {
+    border:4px solid rgb(251, 140, 255);
     
+
     background-color: transparent;
     outline: none;
     color: rgb(251, 140, 255);
@@ -65,7 +67,7 @@ h1{
     
 }
 #btn-animal-fact {
-    
+    border:4px solid rgb(251, 140, 255);
     background-color: transparent;
     outline: none;
     color: rgb(251, 140, 255);

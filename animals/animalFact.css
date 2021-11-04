@@ -78,18 +78,18 @@ h3 {
 }
 .land {
     width: fit-content;
-    background-color: transparent;
-    color: rgb(251, 251, 251)
-    ;
+    background-image: url(./cute-panda.jpg);
+    color: rgb(40, 172, 0);
+    border: 3px solid ;
     font-size: 1.5em;
-    background-color: green;
+    /* background-color: green; */
 }
 .sea{
     width: fit-content;
-    background-color: transparent;
+    background-image: url(./ocean.jpg);
     color: white;
     font-size: 1.5em;
-    background-color: blue;
+    border:3px solid ;
 }
 
 
@@ -98,14 +98,16 @@ h3 {
     background-color: transparent;
     color: white;
     font-size: 2em;
-    background-color: crimson;
+    /* background-color: crimson; */
     margin-left:280px;
+    border: none;
 }
 #btn-dino-fact {
     width: fit-content;
     background-color: transparent;
     color: white;
     font-size: 2em;
-    background-color: crimson;
+    /* background-color: crimson; */
     margin-left: 680px;
+    border: none;
 }

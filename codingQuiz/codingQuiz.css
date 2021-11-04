@@ -31,18 +31,20 @@ h1 {
 
 }
 #btn-js{
-    color: yellow;
 
+    color: #10b1fe;
+    border:2px solid ;
 }
 #btn-pytn{
-    color: lime;
-
+    color: #3fc56b;
+    border:2px solid ;
 }
 #btn-cpp{
-    color: red;
+    color: #ff6480;
+    border:2px solid ;
 }
 #btn-html {
-    color: blue;
-
+    color: #ff78f8;
+    border:2px solid ;
 }
 

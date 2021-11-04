@@ -8,9 +8,42 @@
     <title>What to eat</title>
 </head>
 <body>
-    <form action="">
-        
-    </form>
+    <div id="wrapper">
+        <h1>What to eat?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Spouses Pronoun</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./he-him.html">He/Him</a>
+          <a href="./she-her.html">She/Her</a>
+          <a href="./they-then.html">They/Them</a>
+          <a href="./other.html
+          ">Other/enter pronoun</a>
+        </div>
+      </div>
+      <script>
+          /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
     
 </body>
 </html>
