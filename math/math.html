@@ -6,22 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="math.css">
-    <title>Math Main</title>
+    <title>Math Quiz</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Math is Fun!!</h1>
-        <div id="button-grid" class="btn-grid">
-        <button id="btn-add" onclick="location.href='mathAdd.html' ">Addition</button>
-        <button id="btn-sub" onclick="location.href='mathSub.html' ">Subtraction</button>
-        <button id="btn-mult" onclick="location.href='mathmult.html' ">Multiplication</button>
-    <button id="btn-div" onclick="location.href='mathDiv.html' ">Division</button>
-    <button id="btn-algebra" onclick="location.href='mathAlgebra.html' ">Algebra</button>
-    <button id="btn-mixed" onclick="location.href='mathMixed.html' ">Mixed</button>
-</div>
-<h2>Can you complete all six quizzes?</h2>
+    <div id="wrap1">
+        <div id="header" >
+            <h1>Math is Fun!!</h1>
+            <h2>Can you complete all six quizzes?</h2>
+        </div>
     </div>
+    <div id="wrap2">
+        <div id="button-grid" >
+            <button class="btn" id="btn-add">Addition</button>
+            <button class="btn" id="btn-sub">Subtraction</button>
+            <button class="btn" id="btn-mult">Multiplication</button>
+            <button class="btn" id="btn-div">Division</button>
+            <button class="btn" id="btn-algebra">Algebra</button>
+            <button class="btn" id="btn-mixed">Mixed</button>
+        </div>
+    </div>
+
+    <div id="container" class="hide">
+        <div id="question">Question</div>
+        <form id="form">
+            <input id="answer" type="text" placeholder="Enter answer" required />
+        </form>
+        <button id="submit-btn">Submit</button>
+        <button id="reset" class="hide">Reset</button>
+    </div>
+    <script src="math.js"></script>
 
 </body>
 

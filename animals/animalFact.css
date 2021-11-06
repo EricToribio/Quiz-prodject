@@ -31,14 +31,14 @@ h2{
     color: whitesmoke;
     display: inline;
     font-size: 3em;
-    margin-left: 290px;
+    margin-left: 280px;
     
     
 }
 h3 {
     color: whitesmoke;
     display: inline;
-    margin-left: 640px;
+    margin-left: 540px;
     font-size: 3em;
 
 }
@@ -46,12 +46,12 @@ h3 {
 #dino-container{
     margin-top: 50px;
 }
-#dino-container-facts{
 
-}
+
+
 #container1{
     height: 500px; 
-    margin-top: 200px;
+    
 
 }
 #container2 {
@@ -64,8 +64,8 @@ h3 {
     grid-template-columns: repeat(2, auto);
     width: 200px;
     height: 120px;
-    gap: 150px; 
-    margin-left: 170px;
+    gap: 130px; 
+    margin-left: 130px;
     
 }
 #button-grid2 {
@@ -74,40 +74,66 @@ h3 {
     width: 200px;
     height: 120px;
     gap: 150px;
-    margin-left: 570px;
+    margin-left: 420px;
 }
 .land {
     width: fit-content;
+    background-color: transparent;
+    color: black;
+    border: transparent;
+    font-weight: 600;
+    border-radius: 15px;
+    font-size: 2em;
+}
+.land:hover{
     background-image: url(./cute-panda.jpg);
     color: rgb(40, 172, 0);
     border: 3px solid ;
-    font-size: 1.5em;
-    /* background-color: green; */
+    
 }
 .sea{
     width: fit-content;
+    background-color: transparent;
+    font-size:2em ;
+    border:transparent;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.sea:hover{
     background-image: url(./ocean.jpg);
     color: white;
-    font-size: 1.5em;
+
     border:3px solid ;
 }
 
 
 #btn-dino {
-    width: fit-content;
+    width: 180px;
     background-color: transparent;
     color: white;
     font-size: 2em;
-    /* background-color: crimson; */
-    margin-left:280px;
+    
+    margin-left:260px;
     border: none;
 }
+#btn-dino:hover{
+    background-color: rgba(56, 177, 0, 0.349);
+    text-decoration: underline;
+    text-decoration-color:white ;
+    border-radius: 20px;
+}
 #btn-dino-fact {
-    width: fit-content;
+    width: 140px;
     background-color: transparent;
     color: white;
     font-size: 2em;
     /* background-color: crimson; */
-    margin-left: 680px;
+    margin-left: 570px;
     border: none;
+}
+#btn-dino-fact:hover{
+    background-color: rgba(56, 177, 0, 0.349);
+    text-decoration: underline;
+    text-decoration-color:white ;
+    border-radius: 80px;
 }
