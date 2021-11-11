@@ -34,11 +34,11 @@ var addAnswers = [
 
 var subProblems = [
     '1 - 1', '21 - 14', '76 - 42', '96 - 25', '78 - 9', '89 - 53', '45 - 36',
-    '65 - 21', '756 - 685', '45 - 9'
+    '65 - 21', '756 - 685', '45 - 9', '36 - 17'
 ]
 
 var subAnswers = [
-    '0', '7', '34', '71', '69', '36', '9', '44', '71', '36'
+    '0', '7', '34', '71', '69', '36', '9', '44', '71', '36', '19'
 ]
 
 var multProblems  = [
@@ -59,7 +59,7 @@ function getAnswer() {
     console.log(answer);
     if (problemCount < arrLength ) {
         if (currentProblem[y] == question.innerText) {
-            console.log(y);
+    console.log(y);
             if (answer == currentAnswer[y]) {
                 console.log(y);
                 next()
