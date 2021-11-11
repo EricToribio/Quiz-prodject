@@ -17,6 +17,7 @@
     font-size: 2em;
     display: inline-flex;
     justify-content: center;
+    align-content: center;
 
 }
 
@@ -36,32 +37,33 @@
 }
 body {
     background-image: url(./img/math.jpg);
-    
-    
-  }
+}
 
 
 
 #container {
     background-color: lightgray;
     margin: auto;
-    width: 20%;
+    width: fit-content;
     min-height: 200px;
     border: 5px solid #FFFF00;
     padding: 10px;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 40%;    
 }
 #question {
     font-size: 2em;
     padding: 20px;
+    
+    
 }
 #answer {
     font-size: 1.5em;
     text-align: center;
     border-radius: 8px;
+    
 }
 #submit-btn {
     font-size: 1em;
